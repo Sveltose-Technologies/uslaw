@@ -77,7 +77,7 @@ exports.loginAdmin = async (req, res) => {
 
     res.status(200).json({
       status: true,
-      message: "Login successful",
+      message: "Login successfully",
       admin: {
         id: admin._id,
         name: admin.name,
